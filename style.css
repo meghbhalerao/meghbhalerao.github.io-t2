@@ -33,8 +33,27 @@ color: red;
     text-align: left;
     margin-top: 10px;
     padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
+
+
+#info
+{
+    background-color: orange;
+    color: black;
+    text-align: right;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+
 
 #content
 {
@@ -48,9 +67,13 @@ color: red;
     float: left;
     background-color: #F5CBA7;
 }
-#image
-{
-    align-self:right;
+img {
+    display: block;
+    max-width: 75%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
 }
 #nav .selected
 {
@@ -68,13 +91,22 @@ h1,h2,h2{
 
 #main
 {
-    width:600px;
-    float: right;
+   width: 25%;
+    float: left;
 }
+
+
+#main1
+{
+   width: 50%;
+    float: left;
+}
+
 
 #footer
 {
     clear: both;
+    margin-top: 10px;
     padding: 10px;
     background-color: gray;
     color: white;
