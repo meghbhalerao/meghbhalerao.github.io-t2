@@ -39,18 +39,6 @@ color: red;
 }
 
 
-#info
-{
-    background-color: orange;
-    color: black;
-    text-align: right;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-}
-
 
 
 #content
@@ -59,12 +47,6 @@ color: red;
 
 }
 
-#nav
-{
-    width: 180px;
-    float: left;
-    background-color: #F5CBA7;
-}
 img {
     display: block;
     max-width: 75%;
@@ -73,14 +55,7 @@ img {
     height: auto;
     margin-bottom: 10px;
 }
-#nav .selected
-{
-font-weight: bold;
-}
-#nav ul {
-    list-style-type: none; 
-    padding:10px;
-}
+
 
 h1,h2,h2{
     margin:0;
@@ -96,10 +71,20 @@ h1,h2,h2{
 
 #main1
 {
-   width: 75%;
+   width: 50%;
     float: left;
+    padding-right: 10px;
+    text-align: justify;
 }
 
+#news
+{
+    width: 20%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid;
+}
 
 #footer
 {
