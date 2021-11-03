@@ -39,8 +39,6 @@ color: red;
 }
 
 
-
-
 #content
 {
     padding: 10px;
@@ -75,15 +73,6 @@ h1,h2,h2{
     float: left;
     padding-right: 10px;
     text-align: justify;
-}
-
-#news
-{
-    width: 20%;
-    float: right;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid;
 }
 
 #footer
